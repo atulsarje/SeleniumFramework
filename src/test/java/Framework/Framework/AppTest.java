@@ -31,19 +31,20 @@ public class AppTest
       Assert.assertTrue( true );
       System.out.println("HI");
       
-      DesiredCapabilities cap1 = DesiredCapabilities.chrome();
+   /*   DesiredCapabilities cap1 = DesiredCapabilities.chrome();
       cap1.setBrowserName("chrome");
       //cap1.setVersion("2.49.1");
       cap1.setPlatform(Platform.VISTA);
       
       WebDriver driver = new RemoteWebDriver(new URL("http://192.168.0.9:5566/wd/hub"), cap1);
-      driver.get("http://www.google.com");
-   /*   WebDriver driver = new FirefoxDriver();
+      driver.get("http://www.google.com");*/
+   
+      WebDriver driver = new FirefoxDriver();
       //driver.navigate().to("www.example.com");
       System.out.println(driver.getClass().getName());
       driver.get("http://www.google.com");
       
-      WebDriver driver1 = new InternetExplorerDriver();
+    /*  WebDriver driver1 = new InternetExplorerDriver();
       driver1.get("http://www.gmail.com");
       System.out.println(driver1.getClass().getName());
       
