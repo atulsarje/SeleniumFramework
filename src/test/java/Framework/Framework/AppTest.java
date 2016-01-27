@@ -39,10 +39,10 @@ public class AppTest
       WebDriver driver = new RemoteWebDriver(new URL("http://192.168.0.9:5566/wd/hub"), cap1);
       driver.get("http://www.google.com");*/
    
-      WebDriver driver = new FirefoxDriver();
+    /*  WebDriver driver = new FirefoxDriver();
       //driver.navigate().to("www.example.com");
       System.out.println(driver.getClass().getName());
-      driver.get("http://www.google.com");
+      driver.get("http://www.google.com");*/
       
     /*  WebDriver driver1 = new InternetExplorerDriver();
       driver1.get("http://www.gmail.com");
@@ -55,5 +55,13 @@ public class AppTest
       WebDriver driver3 = new SafariDriver();
       driver3.get("http://www.yelp.com");
       System.out.println(driver3.getClass().getName());*/
+    }
+    
+    @Test
+    public void testApp1() 
+    {
+      Assert.assertTrue( true );
+      System.out.println("HI");
+      
     }
 }

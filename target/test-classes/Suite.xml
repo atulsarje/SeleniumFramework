@@ -1,7 +1,0 @@
-<suite name="Suite">
-  <test name="Firefox">
-    <classes>
-        <class name="Framework.Framework.AppTest"/>
-    </classes>
-  </test>
-</suite>
